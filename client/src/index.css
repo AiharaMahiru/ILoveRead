@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --color-neo-bg: #E0E7F1;
+  --color-neo-border: #000000;
+  --color-neo-primary: #FF90E8;
+  --color-neo-secondary: #23A094;
+  --color-neo-shadow: #1A1A1A;
+}
+
+body {
+  background-color: var(--color-neo-bg);
+  color: #000;
+  font-family: 'Courier New', Courier, monospace; /* Neobrutalism typically uses monospaced or bold sans */
+}
