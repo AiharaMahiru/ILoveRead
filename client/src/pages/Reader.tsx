@@ -43,7 +43,7 @@ const Reader = () => {
          }
 
          // If not in cache, fetch and cache
-         const url = `http://localhost:3000/api/books/${id}/content`;
+         const url = `http://localhost:39301/api/books/${id}/content`;
          const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` }});
 
          if (!res.ok) throw new Error("Failed to fetch");
